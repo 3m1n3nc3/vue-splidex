@@ -7,6 +7,7 @@
   "main": "dist/js/vue-splide.cjs.js",
   "module": "dist/js/vue-splide.esm.js",
   "types": "src/js/index.ts",
+  "type": "module",
   "keywords": [
     "splide",
     "slider",
@@ -53,7 +54,8 @@
     ".": {
       "require": "./dist/js/vue-splide.cjs.js",
       "import": "./dist/js/vue-splide.esm.js",
-      "default": "./dist/js/vue-splide.esm.js"
+      "default": "./dist/js/vue-splide.esm.js",
+      "types": "./src/js/index.ts"
     },
     "./css": "./dist/css/splide.min.css",
     "./css/core": "./dist/css/splide-core.min.css",
